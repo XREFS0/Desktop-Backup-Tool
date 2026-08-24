@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesktopBackupTool.Domain\DesktopBackupTool.Domain.vbproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RootNamespace />
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

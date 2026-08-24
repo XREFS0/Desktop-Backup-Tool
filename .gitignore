@@ -1,0 +1,22 @@
+## Visual Studio / .NET Core
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.db-shm
+*.db-wal
+
+## Logs & Temp
+*.log
+TestResults/
+*.tmp
+
+## OS generated
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

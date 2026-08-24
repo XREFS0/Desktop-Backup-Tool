@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F63AAA6-0DBC-4D22-B03F-7BEB3C55EC1C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBackupTool.Domain", "src\DesktopBackupTool.Domain\DesktopBackupTool.Domain.vbproj", "{39C16654-A72A-4680-8F9A-3A53028BAB6B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBackupTool.Application", "src\DesktopBackupTool.Application\DesktopBackupTool.Application.vbproj", "{DBF20FD6-105B-4B49-9C58-2C3B900FE490}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBackupTool.Infrastructure", "src\DesktopBackupTool.Infrastructure\DesktopBackupTool.Infrastructure.vbproj", "{D1685733-6554-431A-A6A6-EDBCBDCD7A64}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBackupTool.Presentation", "src\DesktopBackupTool.Presentation\DesktopBackupTool.Presentation.vbproj", "{DC004691-413C-4E8F-89F3-94E8B7F7D71B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3C67A82F-70D5-495F-B8BB-D245B81BF116}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesktopBackupTool.Tests", "tests\DesktopBackupTool.Tests\DesktopBackupTool.Tests.vbproj", "{5DF19981-AEEE-4D97-AF03-09DD7605DF21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C16654-A72A-4680-8F9A-3A53028BAB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C16654-A72A-4680-8F9A-3A53028BAB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C16654-A72A-4680-8F9A-3A53028BAB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C16654-A72A-4680-8F9A-3A53028BAB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF20FD6-105B-4B49-9C58-2C3B900FE490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF20FD6-105B-4B49-9C58-2C3B900FE490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF20FD6-105B-4B49-9C58-2C3B900FE490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF20FD6-105B-4B49-9C58-2C3B900FE490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1685733-6554-431A-A6A6-EDBCBDCD7A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1685733-6554-431A-A6A6-EDBCBDCD7A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1685733-6554-431A-A6A6-EDBCBDCD7A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1685733-6554-431A-A6A6-EDBCBDCD7A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC004691-413C-4E8F-89F3-94E8B7F7D71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC004691-413C-4E8F-89F3-94E8B7F7D71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC004691-413C-4E8F-89F3-94E8B7F7D71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC004691-413C-4E8F-89F3-94E8B7F7D71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF19981-AEEE-4D97-AF03-09DD7605DF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF19981-AEEE-4D97-AF03-09DD7605DF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF19981-AEEE-4D97-AF03-09DD7605DF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF19981-AEEE-4D97-AF03-09DD7605DF21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39C16654-A72A-4680-8F9A-3A53028BAB6B} = {6F63AAA6-0DBC-4D22-B03F-7BEB3C55EC1C}
+		{DBF20FD6-105B-4B49-9C58-2C3B900FE490} = {6F63AAA6-0DBC-4D22-B03F-7BEB3C55EC1C}
+		{D1685733-6554-431A-A6A6-EDBCBDCD7A64} = {6F63AAA6-0DBC-4D22-B03F-7BEB3C55EC1C}
+		{DC004691-413C-4E8F-89F3-94E8B7F7D71B} = {6F63AAA6-0DBC-4D22-B03F-7BEB3C55EC1C}
+		{5DF19981-AEEE-4D97-AF03-09DD7605DF21} = {3C67A82F-70D5-495F-B8BB-D245B81BF116}
+	EndGlobalSection
+EndGlobal

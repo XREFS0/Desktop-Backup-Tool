@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesktopBackupTool.Domain\DesktopBackupTool.Domain.vbproj" />
+    <ProjectReference Include="..\DesktopBackupTool.Application\DesktopBackupTool.Application.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.11" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RootNamespace />
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
